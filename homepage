@@ -1,0 +1,206 @@
+<div style="max-width: 1000px; margin: 0 auto; padding: 24px 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans'; line-height: 1.55; color: #37393a;">
+
+    <!-- COURSE HEADER -->
+    <section style="position: relative; min-height: 100px; margin-bottom: 20px; padding: 36px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: #37393a; color: #ffffff; border: 1px solid #37393a; border-top: 5px solid #069e2d; border-radius: 14px; overflow: hidden;">
+
+        <h2 style="margin: 0; font-size: 2rem; line-height: 1.2; color: #ffffff;">
+            YOUR COURSE NAME
+        </h2>
+
+        <a style="display: inline-block; margin-top: 24px; padding: 10px 22px; background: #ffffff; color: #37393a; border: 2px solid #ffffff; border-radius: 999px; text-decoration: none; font-weight: 600;"
+            href="YOUR SYLLABUS URL">
+            Syllabus
+        </a>
+
+    </section>
+
+
+    <!-- INSTRUCTOR + CLASS INFORMATION -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+
+        <!-- INSTRUCTOR INFORMATION -->
+        <div style="padding: 18px; background: #ffffff; border: 1px solid #37393a; border-left: 5px solid #069e2d; border-radius: 10px;">
+
+            <h3 style="margin-top: 0; color: #37393a;">
+                Instructor Information
+            </h3>
+
+            <h4 style="margin-bottom: 6px;">
+                Section 001
+            </h4>
+
+            <p style="margin-top: 0;">
+                <strong>Name:</strong> INSTRUCTOR NAME<br />
+                <strong>Email:</strong>
+                <a style="color: #37393a;" href="mailto:EMAIL ADDRESS">
+                    EMAIL ADDRESS
+                </a><br />
+                <strong>Office Location:</strong> OFFICE LOCATION
+            </p>
+
+            <!-- DELETE IF THERE IS ONLY ONE INSTRUCTOR -->
+
+            <h4 style="margin-bottom: 6px;">
+                Section 002
+            </h4>
+
+            <p style="margin-top: 0; margin-bottom: 0;">
+                <strong>Name:</strong> INSTRUCTOR NAME<br />
+                <strong>Email:</strong>
+                <a style="color: #37393a;" href="mailto:EMAIL ADDRESS">
+                    EMAIL ADDRESS
+                </a><br />
+                <strong>Office Location:</strong> OFFICE LOCATION
+            </p>
+
+        </div>
+
+
+        <!-- CLASS MEETINGS -->
+        <div style="padding: 18px; background: #ffffff; border: 1px solid #37393a; border-left: 5px solid #77b6ea; border-radius: 10px;">
+
+            <h3 style="margin-top: 0; color: #37393a;">
+                Class Meetings
+            </h3>
+
+            <p>
+                <strong>Synchronous class:</strong><br />
+                DAY, TIME
+            </p>
+
+            <p>
+                <strong>Synchronous dates:</strong><br />
+                DATE 1, DATE 2, DATE 3
+            </p>
+
+            <p style="margin-bottom: 0;">
+                <strong>Optional workshops:</strong><br />
+                DATE 1 and DATE 2
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- FULL-WIDTH INFORMATION CARD -->
+    <div style="margin-top: 20px; margin-bottom: 24px; padding: 24px; background: #ffffff; border: 1px solid #37393a; border-top: 5px solid #069e2d; border-radius: 14px;">
+
+        <h3 style="margin-top: 0; color: #37393a;">
+            YOUR INFORMATION CARD TITLE
+        </h3>
+
+        <p style="margin-bottom: 0;">
+            YOUR CONTENT HERE
+        </p>
+
+    </div>
+
+
+    <!-- OPTIONAL SECOND ROW OF INFORMATION CARDS -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 24px;">
+
+        <!-- OFFICE HOURS -->
+        <div style="padding: 24px; background: #ffffff; border: 1px solid #37393a; border-top: 5px solid #f05d5e; border-radius: 14px;">
+
+            <h3 style="margin-top: 0; color: #37393a;">
+                OFFICE HOURS
+            </h3>
+
+            <p>
+                YOUR OFFICE HOURS
+            </p>
+
+            <p>
+                <strong>Zoom:</strong><br />
+                <a style="color: #37393a;" href="YOUR ZOOM URL">
+                    Join Zoom
+                </a><br />
+                Meeting ID: YOUR ID<br />
+                Passcode: YOUR PASSCODE
+            </p>
+
+        </div>
+
+
+        <!-- SECOND INFORMATION CARD -->
+        <div style="padding: 24px; background: #e8eef2; border: 1px solid #37393a; border-top: 5px solid #77b6ea; border-radius: 14px;">
+
+            <h3 style="margin-top: 0; color: #37393a;">
+                SECOND INFORMATION CARD
+            </h3>
+
+            <p>
+                YOUR CONTENT HERE
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- WEEKLY MODULE GRID -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px;">
+
+        <!-- REGULAR MODULE CARD -->
+        <a style="display: block; padding: 18px; background: #ffffff; color: #37393a; border: 1px solid #37393a; border-top: 4px solid #069e2d; border-radius: 10px; text-decoration: none;"
+            href="YOUR MODULE URL">
+
+            <strong style="display: block; font-size: 1.05rem;">
+                Week 1 | YOUR MODULE TITLE
+            </strong>
+
+            <span style="display: block; margin-top: 7px;">
+                YOUR DATES
+            </span>
+
+        </a>
+
+        <!-- COPY THE MODULE CARD ABOVE FOR EACH ADDITIONAL WEEK -->
+
+    </div>
+
+
+    <!-- BREAK / NO CLASS CARD -->
+    <!--
+    <div style="display: block; padding: 18px; background: #e8eef2; color: #37393a; border: 1px solid #37393a; border-top: 4px solid #f05d5e; border-radius: 10px;">
+
+        <strong style="display: block; font-size: 1.05rem;">
+            Thanksgiving Break
+        </strong>
+
+        <span style="display: block; margin-top: 7px;">
+            YOUR DATES
+        </span>
+
+        <span style="display: block; margin-top: 10px; font-weight: 600;">
+            No class
+        </span>
+
+    </div>
+    -->
+
+
+    <!-- OPTIONAL COURSE NOTE -->
+    <p style="margin: 24px 0 0; padding-top: 18px; border-top: 1px dashed #37393a; font-size: 0.9rem;">
+        <em>YOUR COURSE NOTE</em>
+    </p>
+
+
+    <!-- OPTIONAL COURSE RESOURCE -->
+    <div style="margin-top: 24px; margin-bottom: 24px; padding: 24px; background: #ffffff; border: 1px solid #37393a; border-top: 5px solid #069e2d; border-radius: 14px;">
+
+        <h3 style="margin-top: 0; color: #37393a;">
+            Course Resource
+        </h3>
+
+        <p style="margin-bottom: 0;">
+            YOUR RESOURCE DESCRIPTION:
+            <a style="color: #37393a;" href="YOUR RESOURCE URL">
+                RESOURCE NAME
+            </a>
+        </p>
+
+    </div>
+
+</div>
